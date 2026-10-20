@@ -1,0 +1,32 @@
+/* Breakpoints
+   desktop: 1280px   tablet: 1023px   mobile: 767px */
+
+/* desktop-above */
+@media (min-width: 1281px) {
+
+}
+
+/* desktop */
+@media (max-width: 1280px) {
+
+}
+
+/* tablet-above */
+@media (min-width: 1024px) {
+
+}
+
+/* tablet */
+@media (max-width: 1023px) {
+
+}
+
+/* mobile-above */
+@media (min-width: 768px) {
+
+}
+
+/* mobile */
+@media (max-width: 767px) {
+
+}

@@ -1,0 +1,23 @@
+:root {
+    --color-black: #000000;
+    --color-gray: #929292;
+    --color-gray-white: #E9E9E9;
+    --color-white: #FFFFFF;
+    --color-accent: #DFECC6;
+    --color-green-accent: #8E9C78;
+    --color-dark-green: #485C11;
+
+    --border-radius: 50%;
+
+    --font-family-base: 'DMSans', sans-serif;
+
+    --container-width: 1280px;
+    --container-padding-x: 20px;
+
+    --section-padding-y: 80px;
+
+    --button-height: 48px;
+
+    --transition-duration: 0.2s;
+
+}
