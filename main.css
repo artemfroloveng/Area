@@ -560,6 +560,48 @@ ol {
   cursor: pointer;
 }
 
+/*----- 1Browse ----- */
+
+.browse__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 72px;
+  text-align: center;
+  align-items: center;
+  font-size: 150px;
+  font-size: clamp(55px, 13vw, 150px)
+}
+
+@media (max-width: 768px) {
+  .browse__title {
+    margin-bottom: 30px;
+  }
+}
+
+.borwse__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 1024px) {
+  .browse__image {
+    max-width: 720px;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .browse__image {
+    max-width: 343px;
+    margin-inline: auto;
+  }
+}
+
+
 /* This is arrow native, without svg. Arrow on Button */
 .header__button::after {
   content: "";
